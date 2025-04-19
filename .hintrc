@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "script[type=importmap]",
+          "video[playsinline]"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
